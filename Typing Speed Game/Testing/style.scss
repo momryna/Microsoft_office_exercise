@@ -1,0 +1,42 @@
+.showTime {
+  display: grid;
+  width: 900px;
+  height: auto;
+  background-color: rgb(100, 160, 100);
+  margin: 0 auto;
+  justify-content: space-evenly;
+
+  .counter {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    textarea {
+      margin: 10px;
+      padding: 5px;
+      width: 800px;
+      height: 400px;
+      text-align: center;
+      font-size: 20px;
+      resize: none;
+    }
+  }
+}
+.btnButton {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.correct {
+  color: #83aa0e;
+}
+
+/* Incorrect Class For Incorrect Characters */
+.incorrect {
+  color: #dc1414;
+}
